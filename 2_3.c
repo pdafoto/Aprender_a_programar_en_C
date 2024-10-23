@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   2_2.c                                              :+:      :+:    :+:   */
+/*   2_3.c                                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: nperez-d <nperez-d@student.42madrid.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/23 12:28:31 by nperez-d          #+#    #+#             */
-/*   Updated: 2024/10/23 13:19:05 by nperez-d         ###   ########.fr       */
+/*   Created: 2024/10/23 12:57:02 by nperez-d          #+#    #+#             */
+/*   Updated: 2024/10/23 13:24:38 by nperez-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,14 +14,24 @@
 
 int	main(void)
 {
-	int	a;
-	int	b;
+	int	year;
 
-	printf("Enter two integers\n");
-	scanf("%d%d", &a, &b);
-	if (a > b)
-		printf("%d is greater than %d\n", a, b);
+	printf("Write a year\n");
+	scanf("%d", &year);
+
+	if (year % 4 == 0)
+	{
+		if (year % 100 == 0)
+		{
+			if (year % 400 == 0)
+				printf ("%d is a leap year.\n", year);
+			else
+				printf ("%d is not a leap year.\n", year);
+		}
+		else
+			printf ("%d is a leap year.\n", year);
+	}
 	else
-		printf("%d is greater than %d\n", b, a);
+		printf ("%d is not a leap year.\n", year);
 	return (0);
 }

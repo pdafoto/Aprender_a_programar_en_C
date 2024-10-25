@@ -10,4 +10,5 @@ Type it, compile it, debug any typing errors (if you make them) and run it.
 4. Write a program that prints all the even numbers between 1 and a number N entered from the keyboard.
 5. Write a C program that, after inputting a series of 10 numbers from the keyboard, tells which is the largest, which is the smallest, and what the average value is.
 6. Write a program that finds all the prime numbers between 2 and a number N entered by the user via keyboard.
-7. 
+7. Write a C program that generates random combinations for playing the soccer pool (15 results with the values 1, X, or 2).
+8. 

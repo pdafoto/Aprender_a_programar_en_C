@@ -9,3 +9,5 @@ Type it, compile it, debug any typing errors (if you make them) and run it.
 3. Write a program in C that determines whether a year is a leap year or not.
 4. Write a program that prints all the even numbers between 1 and a number N entered from the keyboard.
 5. Write a C program that, after inputting a series of 10 numbers from the keyboard, tells which is the largest, which is the smallest, and what the average value is.
+6. Write a program that finds all the prime numbers between 2 and a number N entered by the user via keyboard.
+7. 
